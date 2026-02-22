@@ -58,7 +58,7 @@ export default function App() {
 
     const phoneVal = () => {
       const phone = values.phone?.trim()
-      const phoneRegex = /^\+?[1-9][0-9]{7,14}$/
+      const phoneRegex = /^\+[1-9]\d{7,14}$/
 
       if (!phone) errorFormat.phone = "Phone number required"
       else if(!phoneRegex.test(phone)) errorFormat.phone = "Not valid format"
