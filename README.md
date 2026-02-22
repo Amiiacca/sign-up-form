@@ -52,7 +52,7 @@ npm install @react-native-picker/picker
 ```
 3) Run the app:
 ```bash
-npx start
+npm start
 ```
 ### API Used
 Countries are fecthed from the REST Countries API:
