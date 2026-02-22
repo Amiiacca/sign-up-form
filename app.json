@@ -24,6 +24,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5e3a3af-52a6-49e4-ac12-57d2aba81d72"
+      }
+    },
+    "owner": "jamaiica"
   }
 }
